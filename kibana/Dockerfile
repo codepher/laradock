@@ -1,3 +1,3 @@
-FROM docker.elastic.co/kibana/kibana:6.6.0
+FROM kibana:latest
 
 EXPOSE 5601
