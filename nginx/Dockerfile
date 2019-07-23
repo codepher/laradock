@@ -17,7 +17,11 @@ RUN apk update \
     && apk --update add logrotate \
     && apk add --no-cache openssl \
     && apk add --no-cache bash
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> 3a4c9158d26ef8a13bf5040762095a815bbc8481
 RUN set -x ; \
     addgroup -g 82 -S www-data ; \
     adduser -u 82 -D -S -G www-data www-data && exit 0 ; exit 1
